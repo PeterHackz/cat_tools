@@ -6,7 +6,7 @@ cat_tools is a python module made to decompress _tex.sc files of supercell games
 # INSTALLATION
 in a terminal, type:
 ```
-pip install cat_tools
+pip install cat-tools
 ```
 # USAGE
 ```
@@ -15,7 +15,7 @@ pycat.decodeSC(file="loading_tex.sc")
 ```
 there is an option to save decompressed data in disk instead of memory, I really recommend it if you want to decompress large files. it is needed to extract images from it
 ```
-from cat-tools import pycat
+from cat_tools import pycat
 pycat.decodeSC(file="loading_tex.sc",use_disk=True)
 ```
 # AUTHORS
