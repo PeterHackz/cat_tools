@@ -15,7 +15,7 @@ pycat.decodeSC(file="loading_tex.sc")
 ```
 there is an option to save decompressed data in disk instead of memory, I really recommend it if you want to decompress large files. it is needed to extract images from it
 ```
-from cat_tools import pycat
+from cat-tools import pycat
 pycat.decodeSC(file="loading_tex.sc",use_disk=True)
 ```
 # AUTHORS
