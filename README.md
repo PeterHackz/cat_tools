@@ -18,6 +18,8 @@ there is an option to save decompressed data in disk instead of memory, I really
 from cat_tools import pycat
 pycat.decodeSC(file="loading_tex.sc",use_disk=True)
 ```
+# CHANGES IN V1.4.0
+added 3rd positional option, 'directory'. it specify the directory for the images to be saved in
 # AUTHORS
 - S.B#0056
 # SPECIAL THANKS TO
