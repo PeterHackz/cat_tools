@@ -1,8 +1,5 @@
 # INTRODUCTION 
-cat_tools is a python module made to decompress _tex.sc files of supercell games.
-# RESULTS 
-- successfully decompressed _tex.sc files in all released versions of brawl stars.
-- successfully decompressed _tex.sc files in latest version of: clash of clans, clash royale, clash quest, clash mini, hayday pop, boom beach.
+cat_tools is a python module made to decompress _tex.sc files.
 # INSTALLATION
 in a terminal, type:
 ```
@@ -21,7 +18,7 @@ pycat.decodeSC(file="loading_tex.sc",use_disk=True)
 # CHANGES IN V1.4.0
 added 3rd positional option, 'directory'. it specify the directory for the images to be saved in
 # AUTHORS
-- S.B#0056
+- @s.b
 # SPECIAL THANKS TO
 - Selce#4792 for helping me with lzma
 - XCoder Authors, I got join_image function from [XCoder](https://github.com/MasterDevX/XCoder), the output images were being wrongly made for some of the images in _tex.sc, so I looked at their code and noticed that they made a function called 'join_image'
